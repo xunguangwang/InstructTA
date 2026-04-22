@@ -26,7 +26,7 @@ device = "cuda" if torch.cuda.is_available() else "cpu"
 openai.api_type = "azure"
 openai.api_base = "https://llm-testing-ca.openai.azure.com/"
 openai.api_version = "2023-07-01-preview"
-openai.api_key = "7907e4397bf5457aa14401b2319a1423"
+openai.api_key = "XXX"
 
 
 def rephrase(text):
